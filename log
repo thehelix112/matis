@@ -1,0 +1,21 @@
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_pair.h: In instantiation of `std::pair<const handleType, MATIS::LEAPBM>':
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_tree.h:123:   instantiated from `std::_Rb_tree_node<std::pair<const handleType, MATIS::LEAPBM> >'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_alloc.h:242:   instantiated from `static void std::__simple_alloc<_Tp, _Alloc>::deallocate(_Tp*, unsigned int) [with _Tp = std::_Rb_tree_node<std::pair<const handleType, MATIS::LEAPBM> >, _Alloc = std::__default_alloc_template<true, 0>]'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_tree.h:567:   instantiated from `void std::_Rb_tree_alloc_base<_Tp, _Alloc, true>::_M_put_node(std::_Rb_tree_node<_Val>*) [with _Tp = std::pair<const handleType, MATIS::LEAPBM>, _Alloc = std::allocator<std::pair<const handleType, MATIS::LEAPBM> >]'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_tree.h:580:   instantiated from `std::_Rb_tree_base<_Tp, _Alloc>::~_Rb_tree_base() [with _Tp = std::pair<const handleType, MATIS::LEAPBM>, _Alloc = std::allocator<std::pair<const handleType, MATIS::LEAPBM> >]'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_tree.h:748:   instantiated from `std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::~_Rb_tree() [with _Key = handleType, _Val = std::pair<const handleType, MATIS::LEAPBM>, _KeyOfValue = std::_Select1st<std::pair<const handleType, MATIS::LEAPBM> >, _Compare = std::less<handleType>, _Alloc = std::allocator<std::pair<const handleType, MATIS::LEAPBM> >]'
+Model/LEAPBM/MATIS_LEAPBMPoint.cpp:141:   instantiated from here
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_pair.h:74: error: `
+   std::pair<_T1, _T2>::second' has incomplete type
+Model/LEAPBM/MATIS_LEAPBMUnordered.h:15: error: forward declaration of `struct 
+   MATIS::LEAPBM'
+Model/LEAPBM/MATIS_LEAPBMPoint.cpp: In member function `void 
+   MATIS::LEAPBMPoint::addUnorderedGroup(MATIS::LEAPBMUnordered)':
+Model/LEAPBM/MATIS_LEAPBMPoint.cpp:141: error:   initializing argument 2 of `
+   void MATIS::UniqueHandleFactory<valueType, initVal>::setValue(const 
+   handleType&, valueType) [with valueType = MATIS::LEAPBMUnordered, unsigned 
+   int initVal = 100]'
+make[2]: *** [libMATIS_la-MATIS_LEAPBMPoint.lo] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [all-recursive] Error 1
+make: *** [all] Error 2

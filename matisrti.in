@@ -1,0 +1,67 @@
+#! /bin/sh
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=/home/dave/Work/Academia/phd/matis/src/.libs
+version=@version@
+
+export QUIET_RTI_SCRIPTS='t'
+source /home/dave/Work/HLA/RTI-1.3NGv5/Linux-rh7.2-i386-gcc-3.0.2-opt-mt/config/rtienv.sh
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$RTI_HOME/$RTI_BUILD_TYPE/lib
+usage()
+{
+    cat <<EOF
+Usage: matisrti [OPTION] [federate args..]
+
+Known values for OPTION are:
+
+  --run		execute federate with matis
+  --norun	dont execute federate, display command only
+  --version	output version information
+  --help	display this help and exit
+
+EOF
+	exit $1
+}
+
+if test $# -eq 0; then
+    usage 1
+fi
+
+# a_preload="LD_PRELOAD=/usr/lib/libstdc++-libc6.1-1.so.2:$libdir/libMATISRTI.so.0"
+a_preload="LD_PRELOAD=$libdir/libMATISRTI.so.0"
+
+while test $# -gt 0; do
+
+    case "$1" in
+
+    --run)
+	shift
+	LD_PRELOAD=$libdir/libMATISRTI.so.0 $*
+	exit 1
+	;;
+    --norun)
+	shift
+	echo "$a_preload" $*
+	exit 1
+	;;
+    --egcshack)
+	shift
+	LD_PRELOAD=/usr/lib/libstdc++-libc6.1-1.so.2 $*
+	exit 1
+	;;
+    --help)
+	usage 0
+	;;
+    --version)
+        echo "matis @MATIS_VERSION@"
+        exit 0
+	;;
+    *)
+	usage 1 1>&2
+	exit 1
+	;;
+    esac
+    shift
+done
+

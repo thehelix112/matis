@@ -1,0 +1,96 @@
+#! /bin/sh
+
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+version=@version@
+
+export QUIET_RTI_SCRIPTS='t'
+source @rtienv.sh-location@
+
+usage()
+{
+    cat <<EOF
+Usage: matis-config [OPTION] [LIBRARIES]
+
+Known values for OPTION are:
+
+  --prefix=DIR      change matis prefix [default /usr]
+  --libs            print library linking information
+  --cflags          print pre-processor and compiler flags
+  --check           just check for library.
+  --help            display this help and exit
+  --version         output version information
+
+EOF
+
+    exit $1
+}
+
+if test $# -eq 0; then
+    usage 1
+fi
+
+cflags=false
+libs=false
+
+while test $# -gt 0; do
+    case "$1" in
+    -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+    *) optarg= ;;
+    esac
+
+    case "$1" in
+    --prefix=*)
+	prefix=$optarg
+	;;
+
+    --prefix)
+	echo $prefix
+	;;
+
+    --version)
+	echo Matis $version
+	exit 0
+	;;
+
+    --help)
+	usage 0
+	;;
+
+    --cflags)
+	echo_cflags=yes
+       	;;
+
+    --libs)
+	echo_libs=yes
+       	;;
+
+    --check)
+	;;
+
+    *)
+	usage 1 1>&2
+	exit 1
+	;;
+    esac
+    shift
+done
+cflags=""
+rtilibs=""
+fedlibs=""
+libs=""
+
+
+if test "$echo_cflags" = "yes"; then
+    cflags="-I$prefix/include `xml2-config --cflags` `sigc-config --cflags` -D_PTHREADS -D_REENTRANT"
+# -D_PTHREADS
+    echo "$cflags -I$RTI_HOME/$RTI_BUILD_TYPE/include"
+fi
+
+if test "$echo_libs" = "yes"; then
+    libs="-L. -lsigc "
+    echo "$libs $guilibs"
+fi
+
+exit 0

@@ -1,0 +1,681 @@
+In file included from /usr/local/include/boost_1_31_0/boost/next_prior.hpp:17,
+                 from /usr/local/include/boost_1_31_0/boost/utility.hpp:15,
+                 from ../src/Support/MATIS_Types.h:12,
+                 from Model/LAE/MATIS_LAEProperty.h:10,
+                 from Model/LAE/MATIS_LAEProperty.cpp:7:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:79: error: no
+   type `input_iterator_tag' in `std'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:89: error: no
+   type `random_access_iterator_tag' in `std'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:90: error: redefinition
+   of `template<class _RandomAccessIterator, class _Distance> void 
+   __gnu_cxx::__distance(_RandomAccessIterator, _RandomAccessIterator, 
+   _Distance&)'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:80: error: `
+   template<class _InputIterator, class _Distance> void 
+   __gnu_cxx::__distance(_InputIterator, _InputIterator, _Distance&)' 
+   previously declared here
+In file included from /usr/local/include/boost_1_31_0/boost/next_prior.hpp:17,
+                 from /usr/local/include/boost_1_31_0/boost/utility.hpp:15,
+                 from ../src/Support/MATIS_Types.h:12,
+                 from Model/LAE/MATIS_LAEMethod.h:10,
+                 from Model/LAE/MATIS_LAEMethod.cpp:7:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:79: error: no
+   type `input_iterator_tag' in `std'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:89: error: no
+   type `random_access_iterator_tag' in `std'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:90: error: redefinition
+   of `template<class _RandomAccessIterator, class _Distance> void 
+   __gnu_cxx::__distance(_RandomAccessIterator, _RandomAccessIterator, 
+   _Distance&)'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:80: error: `
+   template<class _InputIterator, class _Distance> void 
+   __gnu_cxx::__distance(_InputIterator, _InputIterator, _Distance&)' 
+   previously declared here
+In file included from /usr/local/include/boost_1_31_0/boost/next_prior.hpp:17,
+                 from /usr/local/include/boost_1_31_0/boost/utility.hpp:15,
+                 from ../src/Support/MATIS_Types.h:12,
+                 from Model/LAE/MATIS_APIMethod.h:10,
+                 from Model/LAE/MATIS_APIMethod.cpp:7:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:79: error: no
+   type `input_iterator_tag' in `std'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:89: error: no
+   type `random_access_iterator_tag' in `std'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:90: error: redefinition
+   of `template<class _RandomAccessIterator, class _Distance> void 
+   __gnu_cxx::__distance(_RandomAccessIterator, _RandomAccessIterator, 
+   _Distance&)'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/ext/iterator:80: error: `
+   template<class _InputIterator, class _Distance> void 
+   __gnu_cxx::__distance(_InputIterator, _InputIterator, _Distance&)' 
+   previously declared here
+In file included from /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_algobase.h:75,
+                 from /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/vector:67,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:32,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEMethod.h:10,
+                 from Model/LAE/MATIS_LAEMethod.cpp:7:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:656: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:658: error: `
+   bool __gnu_cxx::operator==(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:658: error: `
+   bool __gnu_cxx::operator==(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:662: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:664: error: `
+   bool __gnu_cxx::operator==(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:664: error: `
+   bool __gnu_cxx::operator==(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:668: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:670: error: `
+   bool __gnu_cxx::operator!=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:670: error: `
+   bool __gnu_cxx::operator!=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:674: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:676: error: `
+   bool __gnu_cxx::operator!=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:676: error: `
+   bool __gnu_cxx::operator!=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:681: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:683: error: `
+   bool __gnu_cxx::operator<(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:683: error: `
+   bool __gnu_cxx::operator<(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:687: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:689: error: `
+   bool __gnu_cxx::operator<(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:689: error: `
+   bool __gnu_cxx::operator<(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:693: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:695: error: `
+   bool __gnu_cxx::operator>(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:695: error: `
+   bool __gnu_cxx::operator>(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:699: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:701: error: `
+   bool __gnu_cxx::operator>(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:701: error: `
+   bool __gnu_cxx::operator>(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:705: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:707: error: `
+   bool __gnu_cxx::operator<=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:707: error: `
+   bool __gnu_cxx::operator<=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:711: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:713: error: `
+   bool __gnu_cxx::operator<=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:713: error: `
+   bool __gnu_cxx::operator<=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:717: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:719: error: `
+   bool __gnu_cxx::operator>=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:719: error: `
+   bool __gnu_cxx::operator>=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:723: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:725: error: `
+   bool __gnu_cxx::operator>=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:725: error: `
+   bool __gnu_cxx::operator>=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:732: error: parse
+   error before `<' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:739: error: syntax
+   error before `operator'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:739: error: parse
+   error before `<' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   int operator+(...)' must have an argument of class or enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   int operator+(...)' must take either one or two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h: In 
+   function `int operator+(...)':
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __normal_iterator' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: (Each
+   undeclared identifier is reported only once for each function it appears 
+   in.)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   _Iterator' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   _Container' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __i' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __n' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h: At 
+   global scope:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:742: error: parse
+   error before `}' token
+In file included from /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_algobase.h:75,
+                 from /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/vector:67,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:32,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_APIMethod.h:10,
+                 from Model/LAE/MATIS_APIMethod.cpp:7:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:656: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:658: error: `
+   bool __gnu_cxx::operator==(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:658: error: `
+   bool __gnu_cxx::operator==(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:662: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:664: error: `
+   bool __gnu_cxx::operator==(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:664: error: `
+   bool __gnu_cxx::operator==(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:668: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:670: error: `
+   bool __gnu_cxx::operator!=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:670: error: `
+   bool __gnu_cxx::operator!=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:674: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:676: error: `
+   bool __gnu_cxx::operator!=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:676: error: `
+   bool __gnu_cxx::operator!=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:681: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:683: error: `
+   bool __gnu_cxx::operator<(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:683: error: `
+   bool __gnu_cxx::operator<(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:687: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:689: error: `
+   bool __gnu_cxx::operator<(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:689: error: `
+   bool __gnu_cxx::operator<(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:693: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:695: error: `
+   bool __gnu_cxx::operator>(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:695: error: `
+   bool __gnu_cxx::operator>(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:699: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:701: error: `
+   bool __gnu_cxx::operator>(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:701: error: `
+   bool __gnu_cxx::operator>(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:705: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:707: error: `
+   bool __gnu_cxx::operator<=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:707: error: `
+   bool __gnu_cxx::operator<=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:711: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:713: error: `
+   bool __gnu_cxx::operator<=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:713: error: `
+   bool __gnu_cxx::operator<=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:717: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:719: error: `
+   bool __gnu_cxx::operator>=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:719: error: `
+   bool __gnu_cxx::operator>=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:723: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:725: error: `
+   bool __gnu_cxx::operator>=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:725: error: `
+   bool __gnu_cxx::operator>=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:732: error: parse
+   error before `<' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:739: error: syntax
+   error before `operator'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:739: error: parse
+   error before `<' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   int operator+(...)' must have an argument of class or enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   int operator+(...)' must take either one or two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h: In 
+   function `int operator+(...)':
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __normal_iterator' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: (Each
+   undeclared identifier is reported only once for each function it appears 
+   in.)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   _Iterator' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   _Container' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __i' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __n' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h: At 
+   global scope:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:742: error: parse
+   error before `}' token
+In file included from /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_algobase.h:75,
+                 from /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/vector:67,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:32,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEProperty.h:10,
+                 from Model/LAE/MATIS_LAEProperty.cpp:7:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:656: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:658: error: `
+   bool __gnu_cxx::operator==(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:658: error: `
+   bool __gnu_cxx::operator==(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:662: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:664: error: `
+   bool __gnu_cxx::operator==(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:664: error: `
+   bool __gnu_cxx::operator==(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:668: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:670: error: `
+   bool __gnu_cxx::operator!=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:670: error: `
+   bool __gnu_cxx::operator!=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:674: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:676: error: `
+   bool __gnu_cxx::operator!=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:676: error: `
+   bool __gnu_cxx::operator!=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:681: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:683: error: `
+   bool __gnu_cxx::operator<(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:683: error: `
+   bool __gnu_cxx::operator<(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:687: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:689: error: `
+   bool __gnu_cxx::operator<(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:689: error: `
+   bool __gnu_cxx::operator<(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:693: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:695: error: `
+   bool __gnu_cxx::operator>(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:695: error: `
+   bool __gnu_cxx::operator>(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:699: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:701: error: `
+   bool __gnu_cxx::operator>(...)' must have an argument of class or enumerated 
+   type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:701: error: `
+   bool __gnu_cxx::operator>(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:705: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:707: error: `
+   bool __gnu_cxx::operator<=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:707: error: `
+   bool __gnu_cxx::operator<=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:711: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:713: error: `
+   bool __gnu_cxx::operator<=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:713: error: `
+   bool __gnu_cxx::operator<=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:717: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:719: error: `
+   bool __gnu_cxx::operator>=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:719: error: `
+   bool __gnu_cxx::operator>=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:723: error: parse
+   error before `&' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:725: error: `
+   bool __gnu_cxx::operator>=(...)' must have an argument of class or 
+   enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:725: error: `
+   bool __gnu_cxx::operator>=(...)' must take exactly two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:732: error: parse
+   error before `<' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:739: error: syntax
+   error before `operator'
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:739: error: parse
+   error before `<' token
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   int operator+(...)' must have an argument of class or enumerated type
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   int operator+(...)' must take either one or two arguments
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h: In 
+   function `int operator+(...)':
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __normal_iterator' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: (Each
+   undeclared identifier is reported only once for each function it appears 
+   in.)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   _Iterator' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   _Container' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __i' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:741: error: `
+   __n' undeclared (first use this function)
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h: At 
+   global scope:
+/usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.2/include/g++-v3/bits/stl_iterator.h:742: error: parse
+   error before `}' token
+In file included from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:29,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEMethod.h:10,
+                 from Model/LAE/MATIS_LAEMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/static_assert.hpp:31: error: `
+   STATIC_ASSERTION_FAILURE' is not a template
+In file included from /usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:21,
+                 from /usr/local/include/boost_1_31_0/boost/ref.hpp:12,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEMethod.h:10,
+                 from Model/LAE/MATIS_LAEMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/mpl/bool_fwd.hpp:26: error: syntax error 
+   before `;' token
+/usr/local/include/boost_1_31_0/boost/mpl/bool_fwd.hpp:27: error: syntax error 
+   before `;' token
+In file included from /usr/local/include/boost_1_31_0/boost/ref.hpp:12,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEMethod.h:10,
+                 from Model/LAE/MATIS_LAEMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: syntax error 
+   before `::' token
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: ISO C++ forbids 
+   declaration of `value' with no type
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: declaration of `
+   value' not in a namespace surrounding `::'
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: `value' should 
+   have been declared inside `::'
+In file included from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEMethod.h:10,
+                 from Model/LAE/MATIS_LAEMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: syntax error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: `T' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: `t' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:65: error: ISO C++ forbids 
+   declaration of `ref' with no type
+/usr/local/include/boost_1_31_0/boost/ref.hpp:65: error: syntax error before `{
+   ' token
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: syntax error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: `T' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: parse error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:70: error: ISO C++ forbids 
+   declaration of `cref' with no type
+/usr/local/include/boost_1_31_0/boost/ref.hpp: In function `const int cref(...)
+   ':
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: `reference_wrapper' 
+   undeclared (first use this function)
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: `T' undeclared (first 
+   use this function)
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: parse error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp: At global scope:
+/usr/local/include/boost_1_31_0/boost/ref.hpp:79: error: `mpl' is not a class 
+   or namespace
+/usr/local/include/boost_1_31_0/boost/ref.hpp:80: error: `false_' is not a 
+   class or namespace
+/usr/local/include/boost_1_31_0/boost/ref.hpp:80: error: invalid base-class 
+   specification
+/usr/local/include/boost_1_31_0/boost/ref.hpp:84: error: parse error before `>' 
+   token
+/usr/local/include/boost_1_31_0/boost/ref.hpp:97: error: parse error before `>' 
+   token
+In file included from /usr/local/include/boost_1_31_0/boost/type_traits/cv_traits.hpp:15,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/detail/tuple_basic.hpp:43,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:38,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEMethod.h:10,
+                 from Model/LAE/MATIS_LAEMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/type_traits/add_const.hpp:40: error: `
+   add_const' is not a template
+/usr/local/include/boost_1_31_0/boost/type_traits/add_const.hpp:40: confused by earlier errors, bailing out
+make[2]: *** [libMATIS_la-MATIS_LAEMethod.lo] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:29,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_APIMethod.h:10,
+                 from Model/LAE/MATIS_APIMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/static_assert.hpp:31: error: `
+   STATIC_ASSERTION_FAILURE' is not a template
+In file included from /usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:21,
+                 from /usr/local/include/boost_1_31_0/boost/ref.hpp:12,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_APIMethod.h:10,
+                 from Model/LAE/MATIS_APIMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/mpl/bool_fwd.hpp:26: error: syntax error 
+   before `;' token
+/usr/local/include/boost_1_31_0/boost/mpl/bool_fwd.hpp:27: error: syntax error 
+   before `;' token
+In file included from /usr/local/include/boost_1_31_0/boost/ref.hpp:12,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_APIMethod.h:10,
+                 from Model/LAE/MATIS_APIMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: syntax error 
+   before `::' token
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: ISO C++ forbids 
+   declaration of `value' with no type
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: declaration of `
+   value' not in a namespace surrounding `::'
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: `value' should 
+   have been declared inside `::'
+In file included from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_APIMethod.h:10,
+                 from Model/LAE/MATIS_APIMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: syntax error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: `T' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: `t' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:65: error: ISO C++ forbids 
+   declaration of `ref' with no type
+/usr/local/include/boost_1_31_0/boost/ref.hpp:65: error: syntax error before `{
+   ' token
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: syntax error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: `T' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: parse error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:70: error: ISO C++ forbids 
+   declaration of `cref' with no type
+/usr/local/include/boost_1_31_0/boost/ref.hpp: In function `const int cref(...)
+   ':
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: `reference_wrapper' 
+   undeclared (first use this function)
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: `T' undeclared (first 
+   use this function)
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: parse error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp: At global scope:
+/usr/local/include/boost_1_31_0/boost/ref.hpp:79: error: `mpl' is not a class 
+   or namespace
+/usr/local/include/boost_1_31_0/boost/ref.hpp:80: error: `false_' is not a 
+   class or namespace
+/usr/local/include/boost_1_31_0/boost/ref.hpp:80: error: invalid base-class 
+   specification
+/usr/local/include/boost_1_31_0/boost/ref.hpp:84: error: parse error before `>' 
+   token
+/usr/local/include/boost_1_31_0/boost/ref.hpp:97: error: parse error before `>' 
+   token
+In file included from /usr/local/include/boost_1_31_0/boost/type_traits/cv_traits.hpp:15,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/detail/tuple_basic.hpp:43,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:38,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_APIMethod.h:10,
+                 from Model/LAE/MATIS_APIMethod.cpp:7:
+/usr/local/include/boost_1_31_0/boost/type_traits/add_const.hpp:40: error: `
+   add_const' is not a template
+/usr/local/include/boost_1_31_0/boost/type_traits/add_const.hpp:40: confused by earlier errors, bailing out
+make[2]: *** [libMATIS_la-MATIS_APIMethod.lo] Error 1
+In file included from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:29,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEProperty.h:10,
+                 from Model/LAE/MATIS_LAEProperty.cpp:7:
+/usr/local/include/boost_1_31_0/boost/static_assert.hpp:31: error: `
+   STATIC_ASSERTION_FAILURE' is not a template
+In file included from /usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:21,
+                 from /usr/local/include/boost_1_31_0/boost/ref.hpp:12,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEProperty.h:10,
+                 from Model/LAE/MATIS_LAEProperty.cpp:7:
+/usr/local/include/boost_1_31_0/boost/mpl/bool_fwd.hpp:26: error: syntax error 
+   before `;' token
+/usr/local/include/boost_1_31_0/boost/mpl/bool_fwd.hpp:27: error: syntax error 
+   before `;' token
+In file included from /usr/local/include/boost_1_31_0/boost/ref.hpp:12,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEProperty.h:10,
+                 from Model/LAE/MATIS_LAEProperty.cpp:7:
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: syntax error 
+   before `::' token
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: ISO C++ forbids 
+   declaration of `value' with no type
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: declaration of `
+   value' not in a namespace surrounding `::'
+/usr/local/include/boost_1_31_0/boost/mpl/bool.hpp:36: error: `value' should 
+   have been declared inside `::'
+In file included from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:37,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEProperty.h:10,
+                 from Model/LAE/MATIS_LAEProperty.cpp:7:
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: syntax error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: `T' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:64: error: `t' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:65: error: ISO C++ forbids 
+   declaration of `ref' with no type
+/usr/local/include/boost_1_31_0/boost/ref.hpp:65: error: syntax error before `{
+   ' token
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: syntax error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: `T' was not declared 
+   in this scope
+/usr/local/include/boost_1_31_0/boost/ref.hpp:69: error: parse error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp:70: error: ISO C++ forbids 
+   declaration of `cref' with no type
+/usr/local/include/boost_1_31_0/boost/ref.hpp: In function `const int cref(...)
+   ':
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: `reference_wrapper' 
+   undeclared (first use this function)
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: `T' undeclared (first 
+   use this function)
+/usr/local/include/boost_1_31_0/boost/ref.hpp:71: error: parse error before `
+   const'
+/usr/local/include/boost_1_31_0/boost/ref.hpp: At global scope:
+/usr/local/include/boost_1_31_0/boost/ref.hpp:79: error: `mpl' is not a class 
+   or namespace
+/usr/local/include/boost_1_31_0/boost/ref.hpp:80: error: `false_' is not a 
+   class or namespace
+/usr/local/include/boost_1_31_0/boost/ref.hpp:80: error: invalid base-class 
+   specification
+/usr/local/include/boost_1_31_0/boost/ref.hpp:84: error: parse error before `>' 
+   token
+/usr/local/include/boost_1_31_0/boost/ref.hpp:97: error: parse error before `>' 
+   token
+In file included from /usr/local/include/boost_1_31_0/boost/type_traits/cv_traits.hpp:15,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/detail/tuple_basic.hpp:43,
+                 from /usr/local/include/boost_1_31_0/boost/tuple/tuple.hpp:38,
+                 from /usr/local/include/boost_1_31_0/boost/graph/graph_traits.hpp:31,
+                 from /usr/local/include/boost_1_31_0/boost/graph/adjacency_list.hpp:44,
+                 from ../src/Support/MATIS_Types.h:13,
+                 from Model/LAE/MATIS_LAEProperty.h:10,
+                 from Model/LAE/MATIS_LAEProperty.cpp:7:
+/usr/local/include/boost_1_31_0/boost/type_traits/add_const.hpp:40: error: `
+   add_const' is not a template
+/usr/local/include/boost_1_31_0/boost/type_traits/add_const.hpp:40: confused by earlier errors, bailing out
+make[2]: *** [libMATIS_la-MATIS_LAEProperty.lo] Error 1
+make[1]: *** [all-recursive] Error 1
+make: *** [all] Error 2

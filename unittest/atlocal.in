@@ -1,0 +1,6 @@
+# We need a C compiler.
+# CC='@CC@'
+# CFLAGS='@CFLAGS@ @WARNING_CFLAGS@ @WERROR_CFLAGS@'
+
+# We need `config.h'.
+# CPPFLAGS="-I$abs_top_builddir @CPPFLAGS@"

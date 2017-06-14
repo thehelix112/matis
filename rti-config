@@ -1,0 +1,84 @@
+#! /bin/sh
+
+RTI_SOURCE=/home/dave/Work/HLA/RTI-1.3NGv5/Linux-rh7.2-i386-gcc-3.0.2-opt-mt
+
+export QUIET_RTI_SCRIPTS='t'
+source $RTI_SOURCE/config/rtienv.sh
+
+usage()
+{
+    cat <<EOF
+Usage: rti-config [OPTION] [LIBRARIES]
+
+Known values for OPTION are:
+
+  --prefix=DIR		change rti prefix [default $prefix]
+  --libs		print library linking information
+  --cflags		print pre-processor and compiler flags
+  --help		display this help and exit
+  --version		output version information
+
+EOF
+
+    exit $1
+}
+
+if test $# -eq 0; then
+    usage 1
+fi
+
+cflags=false
+libs=false
+
+while test $# -gt 0; do
+    case "$1" in
+    -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+    *) optarg= ;;
+    esac
+
+    case "$1" in
+    --prefix=*)
+	prefix=$optarg
+	;;
+
+    --prefix)
+	echo $prefix
+	;;
+
+    --version)
+	echo 1.3.0
+	exit 0
+	;;
+
+    --help)
+	usage 0
+	;;
+
+    --cflags)
+	echo_cflags=yes
+       	;;
+
+    --libs)
+	echo_libs=yes
+       	;;
+
+    *)
+	usage 1 1>&2
+	exit 1
+	;;
+    esac
+    shift
+done
+
+if test "$echo_cflags" = "yes"; then
+#    cflags=" -D_PTHREADS -D_REENTRANT -I$RTI_HOME/$RTI_BUILD_TYPE/include "
+    cflags=" -DRTI_USES_STD_FSTREAM -DREENTRANT -D_RH72_GCC302 -DRTI_HAS_THREADS -DPOSIX_PTHREAD_SEMANTICS -I$RTI_HOME/$RTI_BUILD_TYPE/include "
+    echo "$cflags"
+fi
+
+if test "$echo_libs" = "yes"; then
+    libs="-L$RTI_HOME/$RTI_BUILD_TYPE/lib -lRTI-NG -lfedtime -lpthread "
+    echo "$libs"
+fi
+
+exit 0

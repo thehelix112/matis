@@ -1,0 +1,31 @@
+// Copyright 2004 David Andrews
+// Authors: David Andrews
+// CVS $RCSfile: MATIS_CheckerBoolean.cpp,v $
+// CVS $Date: 2006/01/05 08:06:09 $
+// CVS $Revision: 1.1 $
+
+#include "MATIS_CheckerBoolean.h"
+#include "MATIS_Model.h"
+#include "MATIS_LAESet.h"
+
+using namespace MATIS;
+
+//Default Constructor
+CheckerBoolean::CheckerBoolean(){
+    
+};
+
+//Default Destructor
+CheckerBoolean::~CheckerBoolean(void){
+    
+};
+
+bool CheckerBoolean::checkValues(boost::any actionValue, std::string modelValue){
+  
+    
+    
+  
+};
+
+#include "dlc_register.h"
+DLC_Register_Macro(CheckerBoolean);

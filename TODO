@@ -1,0 +1,86 @@
+Matis TO DO List
+================
+
+9. Implement the `authority' functionality of property sources.
+
+17. Ensure that whenever an object is removeValue()'d from a UniqueHandleFactory it is deleted if it is a pointer.
+
+21. Outparameters? Shit.
+
+24. Check and fix the correct handling of exceptions.
+
+28. Make the setting of LAE properties occur from the value in the action, not the value in the property set. As <propertyset> values can potentially be multiples? This is moderately complicated as in <propertyset> we have everything in strings already but in the Action we do not.
+
+29. Implement Functions and <propertyreference> elements in <source>s. Not implemented at all as yet.
+
+
+
+
+DONE LIST
+=========
+
+1. After adding add/remove/get/set methods for everything methods
+should be added to query and retrieve things.  DONE
+
+2. Add checks in add methods which check for duplicates.  DONE
+
+3. Add late-checking for references between xml objects as there are errors currently. DONE
+
+4. Fix unresolved symbols. DONE
+
+5. Change the way the stage progression of LAEMethods occurs. Currently the code is not in line with the xml which defines <progression> to allow for true graph nature. The LAEMethodIterator::operator +() functio needs to check with the graph for EACH possible progression for the current stage. Old technique used getNextStage() to do this. DONE
+
+10. Fix the parentHandle storage for classes that can have different types of parents! Need some way of distinguishing. DONE
+
+6. Update the HLA13NG.lae file to incorporate proper progression of potential
+subscription/publication api method calls. Ie, a series of getHandles for different things then followed by a publish.
+   Investigate the potential for circular laemethod stage progressions to allow for multiple objectattribute.getHandle calls before a subscribe/publish.
+   Need to implement the ability of LAEMethodStage to refer to other LAEMethods! DONE.
+
+11. Change the setting of ModelElement handle/parent and parentType variables to postConfigurationLoad() functions as we don't know the handle to set before we store it! All LEAPBM classes and some LAE classes are implemented in the old way. Example in LAEEntry::postConfigurationLoad(); DONE
+
+7. Implement the update of the laeInstance property values with the LEAPBM::result() call back after an Action has been executed. DONE
+
+8. Implement the `unrestricted' functionality. If a laemethod is unrestricted it can be performed anytime within the boundaries defined as after_interaction_id and before_interaction_id. DONE.
+
+12. IMPORTANT!!!! Rework LAEMETHODCALL to LAEINTERACTION with the appropriate
+incorporation of LAE property sets as verticies in the directed graph of interactions. If a LAE property set is used as a vertex it means that it must have a source which is an API variable that can be set directly without the use of a method. DONE.
+
+11. Implement the maintainence and distinction between normal laemethod stage progressions and those which are the result of apiexceptions. (progression element stores apiexception_id now). DONE.
+
+13. Allow the LEAPBM directed graph to not proceed after each Action. Ie, check the current LAEInteraction to see if the current action is part of its definition, BEFORE(?) checking the pathways from the LAEInteraction.  DONE.
+
+14. Alter the LEAPBMIterator to be able to cope with property set graph verticies. DONE.
+
+15. Implement an easy technique for setting the .handle of ModelElement derivative classes AFTER they have been added to the UniqueHandleFactory. DONE.
+
+16. Change the storage of all model elements to heap. Ie, create new elements
+on the heap then store the pointers in the models? This is to allow
+the setting of parentHandle as soon as they are known during loadConfiguration(). DONE.
+
+18. Fix the problem with things being added to the model before their configuration has been loaded (in this case all the hashes are identical!). DONE.
+
+19. Fix the LAEMethod's reference to current Vertex and Edge. The elements
+are not on the heap, hence using pointers is invalid as the values disappear! DONE.
+
+20. When a LAEMethod stage which is flagged as END is performed the currentVertex should be reset to the beginning. DONE.
+
+22. Ensure the correct leaving of unordered groups! Currently never leaving? DONE.
+
+26. Fix the correct setting of LAE properties when unrestricted LAE methods
+are performed. Currently as unrestricted LAE methods are not linked
+with any LAE instance no LAE instance properties are being set properly. DONE.
+
+25. Fix the correct use of valuereferences in property sets. Specifically, check that properties whose source is a return type are being set? DONE.
+
+27. Fix the correct set of LAE properties whose sources are unrestricted LAE method returns. DONE.
+
+30. Implement nice output indicating anomaly characteristics. DONE
+
+31. Alter so it will execute irrespective of matches but it records rejections. DONE
+
+23. Implement all the Checker classes. DONE.
+
+32. Might need to alter algorithm from pure control flow graph progression to check each laeinteraction in the list, not just the last one that was performed? Thats going to increase the time a dickload! NO. Not doing that.
+
+33. Implement the proper incrementing of unordered's groups after they have been completed. Ie, when the next vertex from within a group is outside the group. DONE! Nicely too. Allows for nested unordered groups I believe and reuses 95% of the std iterator!

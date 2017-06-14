@@ -1,0 +1,560 @@
+// Copyright 2001, 2002 Commonwealth of Australia
+// Authors: John Wharington, David Andrews, Peter Beckwith, Nicholas Hynes
+// Defence Science Technology Organisation, Maritime Platforms Division
+// CVS $RCSfile: MATIS_FakeRTIAmbassador.h,v $
+// CVS $Date: 2005/11/22 07:10:45 $
+// CVS $Revision: 1.2 $
+
+            
+ catch(RTI::ArrayIndexOutOfBounds &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ArrayIndexOutOfBounds;
+newException = &aException;
+
+} catch(RTI::AsynchronousDeliveryAlreadyDisabled &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AsynchronousDeliveryAlreadyDisabled;
+newException = &aException;
+
+            
+} catch(RTI::AsynchronousDeliveryAlreadyEnabled &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AsynchronousDeliveryAlreadyEnabled;
+newException = &aException;
+
+            
+} catch(RTI::AttributeAcquisitionWasNotRequested &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeAcquisitionWasNotRequested;
+newException = &aException;
+
+            
+} catch(RTI::AttributeAcquisitionWasNotCanceled &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeAcquisitionWasNotCanceled;
+newException = &aException;
+
+            
+} catch(RTI::AttributeAlreadyBeingAcquired &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeAlreadyBeingAcquired;
+newException = &aException;
+
+            
+} catch(RTI::AttributeAlreadyBeingDivested &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeAlreadyBeingDivested;
+newException = &aException;
+
+            
+} catch(RTI::AttributeAlreadyOwned &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeAlreadyOwned;
+newException = &aException;
+
+            
+} catch(RTI::AttributeDivestitureWasNotRequested &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeDivestitureWasNotRequested;
+newException = &aException;
+
+            
+} catch(RTI::AttributeNotDefined &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeNotDefined;
+newException = &aException;
+
+            
+} catch(RTI::AttributeNotKnown &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeNotKnown;
+newException = &aException;
+
+            
+} catch(RTI::AttributeNotOwned &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeNotOwned;
+newException = &aException;
+
+            
+} catch(RTI::AttributeNotPublished &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_AttributeNotPublished;
+newException = &aException;
+
+            
+} catch(RTI::ConcurrentAccessAttempted &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ConcurrentAccessAttempted;
+newException = &aException;
+
+            
+} catch(RTI::CouldNotDiscover &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_CouldNotDiscover;
+newException = &aException;
+
+            
+} catch(RTI::CouldNotOpenFED &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_CouldNotOpenFED;
+newException = &aException;
+
+            
+} catch(RTI::CouldNotRestore &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_CouldNotRestore;
+newException = &aException;
+
+            
+} catch(RTI::DeletePrivilegeNotHeld &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_DeletePrivilegeNotHeld;
+newException = &aException;
+
+            
+} catch(RTI::DimensionNotDefined &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_DimensionNotDefined;
+newException = &aException;
+
+            
+} catch(RTI::EnableTimeConstrainedPending &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_EnableTimeConstrainedPending;
+newException = &aException;
+
+            
+} catch(RTI::EnableTimeConstrainedWasNotPending &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_EnableTimeConstrainedWasNotPending;
+newException = &aException;
+
+            
+} catch(RTI::EnableTimeRegulationPending &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_EnableTimeRegulationPending;
+newException = &aException;
+
+            
+} catch(RTI::EnableTimeRegulationWasNotPending &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_EnableTimeRegulationWasNotPending;
+newException = &aException;
+
+            
+} catch(RTI::ErrorReadingFED &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ErrorReadingFED;
+newException = &aException;
+
+            
+} catch(RTI::EventNotKnown &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_EventNotKnown;
+newException = &aException;
+
+            
+} catch(RTI::FederateAlreadyExecutionMember &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederateAlreadyExecutionMember;
+newException = &aException;
+
+            
+} catch(RTI::FederateInternalError &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederateInternalError;
+newException = &aException;
+
+            
+} catch(RTI::FederateLoggingServiceCalls &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederateLoggingServiceCalls;
+newException = &aException;
+
+            
+} catch(RTI::FederateNotExecutionMember &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederateNotExecutionMember;
+newException = &aException;
+
+            
+} catch(RTI::FederateOwnsAttributes &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederateOwnsAttributes;
+newException = &aException;
+
+            
+} catch(RTI::FederateWasNotAskedToReleaseAttribute &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederateWasNotAskedToReleaseAttribute;
+newException = &aException;
+
+            
+} catch(RTI::FederatesCurrentlyJoined &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederatesCurrentlyJoined;
+newException = &aException;
+
+            
+} catch(RTI::FederationExecutionAlreadyExists &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederationExecutionAlreadyExists;
+newException = &aException;
+
+            
+} catch(RTI::FederationExecutionDoesNotExist &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederationExecutionDoesNotExist;
+newException = &aException;
+
+            
+} catch(RTI::FederationTimeAlreadyPassed &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_FederationTimeAlreadyPassed;
+newException = &aException;
+
+            
+} catch(RTI::HandleValuePairMaximumExceeded &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_HandleValuePairMaximumExceeded;
+newException = &aException;
+
+            
+} catch(RTI::InteractionClassNotDefined &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InteractionClassNotDefined;
+newException = &aException;
+
+            
+} catch(RTI::InteractionClassNotKnown &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InteractionClassNotKnown;
+newException = &aException;
+
+            
+} catch(RTI::InteractionClassNotPublished &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InteractionClassNotPublished;
+newException = &aException;
+
+            
+} catch(RTI::InteractionClassNotSubscribed &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InteractionClassNotSubscribed;
+newException = &aException;
+
+            
+} catch(RTI::InteractionParameterNotDefined &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InteractionParameterNotDefined;
+newException = &aException;
+
+            
+} catch(RTI::InteractionParameterNotKnown &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InteractionParameterNotKnown;
+newException = &aException;
+
+            
+} catch(RTI::InvalidExtents &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidExtents;
+newException = &aException;
+
+            
+} catch(RTI::InvalidFederationTime &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidFederationTime;
+newException = &aException;
+
+            
+} catch(RTI::InvalidHandleValuePairSetContext &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidHandleValuePairSetContext;
+newException = &aException;
+
+            
+} catch(RTI::InvalidLookahead &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidLookahead;
+newException = &aException;
+
+            
+} catch(RTI::InvalidOrderingHandle &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidOrderingHandle;
+newException = &aException;
+
+            
+} catch(RTI::InvalidRegionContext &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidRegionContext;
+newException = &aException;
+
+            
+} catch(RTI::InvalidResignAction &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidResignAction;
+newException = &aException;
+
+            
+} catch(RTI::InvalidRetractionHandle &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidRetractionHandle;
+newException = &aException;
+
+            
+} catch(RTI::InvalidTransportationHandle &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_InvalidTransportationHandle;
+newException = &aException;
+
+            
+} catch(RTI::MemoryExhausted &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_MemoryExhausted;
+newException = &aException;
+
+            
+} catch(RTI::NameNotFound &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_NameNotFound;
+newException = &aException;
+
+            
+} catch(RTI::ObjectClassNotDefined &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ObjectClassNotDefined;
+newException = &aException;
+
+            
+} catch(RTI::ObjectClassNotKnown &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ObjectClassNotKnown;
+newException = &aException;
+
+            
+} catch(RTI::ObjectClassNotPublished &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ObjectClassNotPublished;
+newException = &aException;
+
+            
+} catch(RTI::ObjectClassNotSubscribed &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ObjectClassNotSubscribed;
+newException = &aException;
+
+            
+} catch(RTI::ObjectNotKnown &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ObjectNotKnown;
+newException = &aException;
+
+            
+} catch(RTI::ObjectAlreadyRegistered &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ObjectAlreadyRegistered;
+newException = &aException;
+
+            
+} catch(RTI::OwnershipAcquisitionPending &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_OwnershipAcquisitionPending;
+newException = &aException;
+
+            
+} catch(RTI::RegionInUse &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_RegionInUse;
+newException = &aException;
+
+            
+} catch(RTI::RegionNotKnown &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_RegionNotKnown;
+newException = &aException;
+
+            
+} catch(RTI::RestoreInProgress &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_RestoreInProgress;
+newException = &aException;
+
+            
+} catch(RTI::RestoreNotRequested &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_RestoreNotRequested;
+newException = &aException;
+
+            
+} catch(RTI::RTIinternalError &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_RTIinternalError;
+newException = &aException;
+
+            
+} catch(RTI::SpaceNotDefined &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_SpaceNotDefined;
+newException = &aException;
+
+            
+} catch(RTI::SaveInProgress &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_SaveInProgress;
+newException = &aException;
+
+            
+} catch(RTI::SaveNotInitiated &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_SaveNotInitiated;
+newException = &aException;
+
+            
+} catch(RTI::SpecifiedSaveLabelDoesNotExist &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_SpecifiedSaveLabelDoesNotExist;
+newException = &aException;
+
+            
+} catch(RTI::SynchronizationPointLabelWasNotAnnounced &aException) {
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_SynchronizationPointLabelWasNotAnnounced;
+newException = &aException;
+
+            
+} catch(RTI::TimeAdvanceAlreadyInProgress &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_TimeAdvanceAlreadyInProgress;
+newException = &aException;
+
+            
+} catch(RTI::TimeAdvanceWasNotInProgress &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_TimeAdvanceWasNotInProgress;
+newException = &aException;
+
+            
+} catch(RTI::TimeConstrainedAlreadyEnabled &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_TimeConstrainedAlreadyEnabled;
+newException = &aException;
+
+            
+} catch(RTI::TimeConstrainedWasNotEnabled &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_TimeConstrainedWasNotEnabled;
+newException = &aException;
+
+            
+} catch(RTI::TimeRegulationAlreadyEnabled &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_TimeRegulationAlreadyEnabled;
+newException = &aException;
+
+            
+} catch(RTI::TimeRegulationWasNotEnabled &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_TimeRegulationWasNotEnabled;
+newException = &aException;
+
+            
+} catch(RTI::UnableToPerformSave &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_UnableToPerformSave;
+newException = &aException;
+
+            
+} catch(RTI::ValueCountExceeded &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ValueCountExceeded;
+newException = &aException;
+
+            
+} catch(RTI::ValueLengthExceeded &aException){
+
+exceptionCaught = true;
+theExceptionAction.actionException = Action::EXCEPT_ValueLengthExceeded;
+newException = &aException;
+ 
+}

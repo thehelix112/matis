@@ -1,0 +1,30 @@
+#!/bin/bash
+
+CXX=g++3
+LANG=""
+
+# extract the file being compiled
+FILE=`echo $@ | awk '/\.c(pp|c|).*/ { for(i = 1; i <= NF; i += 1) if($i ~ /\.c(pp|c|)$/) print $i }'`
+
+# extract the suffix of this file
+SUFFIX=`echo $FILE | awk -F. '{ print $NF }'`
+
+# determine the language type
+case "$SUFFIX" in
+
+	"cpp")
+	LANG="C++"
+	;;
+	"cc")
+	LANG="C++"
+	;;
+	"c")
+	LANG="C"
+	;;
+
+esac
+
+
+printf "\t[%-6s]: %s\n" $LANG $FILE
+
+$CXX $@ >/dev/null
